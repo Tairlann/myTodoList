@@ -9,5 +9,6 @@ function press(event) {
     } else {
       document.getElementById("myUL").appendChild(li);
     }
+    document.getElementById("inp").value = "";
   }
 }
