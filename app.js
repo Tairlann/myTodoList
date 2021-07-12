@@ -19,7 +19,7 @@ function press(event) {
   span.className = "close";
   li.appendChild(span);
 
-  //
+  //action to 'close' span
   var close = document.getElementsByClassName("close");
   var i;
   for (i = 0; i < close.length; i++) {
@@ -29,3 +29,14 @@ function press(event) {
     };
   }
 }
+//
+var list = document.querySelector("ul");
+list.addEventListener(
+  "click",
+  function (ev) {
+    if (ev.target.tagName === "LI") {
+      ev.target.classList.toggle("checked");
+    }
+  },
+  false
+);
