@@ -1,3 +1,21 @@
+body {
+  background-color: #fa8d8d;
+}
+.container {
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+  align-items: center;
+  background-color: rgb(210, 252, 252);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+
+  min-height: 25vh;
+}
+h1 {
+  text-align: center;
+}
+
 ul li.checked {
   background: #888;
   color: #fff;

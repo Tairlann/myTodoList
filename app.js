@@ -29,7 +29,7 @@ function press(event) {
     };
   }
 }
-//
+// toggle style of list elements
 var list = document.querySelector("ul");
 list.addEventListener(
   "click",
