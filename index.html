@@ -10,7 +10,16 @@
   <body>
     <div class="container">
       <h1>Add your first todo</h1>
-      <input onkeydown=" press(event)" type="text" id="inp" class="inp" />
+      <input
+        onkeydown=" press(event)"
+        type="text"
+        id="inp"
+        class="inp"
+        autocomplete="off"
+        placeholder="E.g. Call to Mom"
+        required
+        autofocus
+      />
 
       <ul id="myUL"></ul>
     </div>
